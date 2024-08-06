@@ -1,0 +1,229 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+
+Color palette
+https://colorhunt.co/
+*/
+
+body {
+  font-size: Arial, Helvetica, sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+}
+
+header {
+  background-color: #e3651d;
+  color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.search-container {
+  display: flex;
+  max-width: 800px;
+  margin: 30px auto 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-container input[type="text"] {
+  padding: 20px;
+  width: 70%;
+  border-radius: 30px 0 0 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container button {
+  padding: 20px 30px;
+  border-radius: 0 30px 30px 0;
+  background-color: #ff5733;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+.search-container button:hover {
+  background-color: #ff3d00;
+}
+
+.hero {
+  background-image: url("./img/kasap-kofte.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  padding: 100px 0px;
+  height: 400px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.hero p {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.button {
+  display: inline-block;
+  background-color: #e3651d;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #fff;
+  transition: 300ms all;
+}
+
+.button:hover,
+.order-button:hover {
+  background-color: #ff3d00;
+}
+
+.order-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px !important;
+  background-color: #ff5733;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.promotion,
+.featured,
+.menu-main {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.promotion h2,
+.featured h2,
+.menu-main h2 {
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-item img {
+  width: 100%;
+  /* width: 300px;
+  height: 200px; */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+}
+
+.menu-item:hover {
+  transition: 300ms all;
+  transform: scale(1.05);
+}
+
+.menu-item h3,
+menuitem p {
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  display: block;
+  font-weight: bold;
+  color: green;
+}
+
+del {
+  color: red;
+  opacity: 0.6;
+}
+
+.tag {
+  background-color: rgb(109, 122, 201);
+  color: #fff !important ;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+}
+
+.footer {
+  background-color: #e3651d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #fff;
+}
+
+@media only screen and(max-width: 480px) {
+  .promotion,
+  .featured,
+  .menu-main {
+    text-align: center;
+  }
+
+  .menu-item{
+
+    width: 90%;
+    margin: 15px auto;
+  }
+}
