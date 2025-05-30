@@ -2,53 +2,17 @@
 
 ![Responsive-Food-Website-Using-HTML-CSS](./img/Responsive_Food_Website.gif)
 
-## Overview
+## Responsive Food Website Using HTML CSS.
 
-A modern, responsive food website built using HTML and CSS. This project showcases a beautiful design that adapts seamlessly to different screen sizes, making it perfect for both desktop and mobile viewing.
+**live demo: [https://whimsical-crisp-9d44fb.netlify.app//](https://whimsical-crisp-9d44fb.netlify.app///)**
 
-## Features
+## Instructions
 
-- 📱 Fully responsive design
-- 🎨 Modern and clean UI
-- 🍽️ Beautiful food presentation
-- 🔍 Easy navigation
-- 💫 Smooth animations and transitions
-- 📦 Cross-browser compatible
+First clone this repository.
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
-- Media Queries
-
-## Live Demo
-
-\*Check out the live demo: <a href="https://whimsical-crisp-9d44fb.netlify.app/" target="_blank">Food Website Demo</a>
-
--
-
-## Getting Started
-
-### Prerequisites
-
-- Any modern web browser
-- Code editor (VS Code recommended)
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/mehmetulker/Responsive-Food-Website-Using-HTML-CSS.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd Responsive-Food-Website-Using-HTML-CSS
-   ```
+```bash
+cd Responsive-Food-Website-Using-HTML-CSS
+```
 
 3. Open the `index.html` file in your browser to view the website.
 
