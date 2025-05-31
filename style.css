@@ -51,7 +51,7 @@ nav ul li a:hover {
 
 .search-container {
   display: flex;
-  max-width: 800px;
+  max-width: 90%;
   margin: 30px auto 40px;
   justify-content: center;
   align-items: center;
